@@ -1,5 +1,5 @@
 <?php
-
+header('Content-Type: application/json; charset=utf-8');
 $arr["slackusername"] = "Favour Okechukwu";
 $arr["backend"]= true;
 $arr["age"] =23;
