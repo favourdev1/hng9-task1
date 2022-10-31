@@ -1,5 +1,7 @@
 <?php
-header('Content-Type: application/json; charset=utf-8');
+header("Content-Type: application/json; charset=UTF-8");
+header("Access-Control-Request-Method: GET");
+
 $arr["slackusername"] = "Favour Okechukwu";
 $arr["backend"]= true;
 $arr["age"] =23;
